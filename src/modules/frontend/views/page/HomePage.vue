@@ -4,6 +4,8 @@
     <div class="loader"></div>
   </div>
   <!-- Preloader End -->
+
+
   <!-- Header Section -->
   <header id="home">
     <!-- Navbar -->
@@ -49,16 +51,22 @@
     <!-- Hero Descriptions -->
     <div class="row">
       <div class="hero-main">
-        <h1>
-          Hi there! We are the new kids on the block and we build awesome
-          websites and mobile apps.
-        </h1>
-        <a href="#" class="btn hero-btn">WORK WITH US!</a>
+      <p> Welcome to NavigatorBD, a comprehensive software and ERP solution provider that is tailored to meet the specific needs of businesses in Bangladesh. Our state-of-the-art technology and advanced tools ensure that you have everything you need to manage your business more effectively.
+      Our software solutions are designed to streamline your operations and improve productivity. Whether you are looking for accounting software, inventory management, HR and payroll management, or customer relationship management, we have got you covered. Our software solutions are easy to use, highly customizable, and scalable to grow with your business.
+      In addition to our software solutions, we also offer Android apps that can be seamlessly integrated with your business operations. Our Android apps are designed to help you manage your business on the go, providing real-time access to critical data and allowing you to make informed decisions from anywhere.
+      At NavigatorBD, we understand that every business is unique, and that is why we offer highly customizable solutions that can be tailored to your specific needs. Our team of experienced developers will work closely with you to understand your business requirements and develop a solution that is tailored to your needs.
+      We also offer ongoing support and maintenance services to ensure that your software and Android apps are always up-to-date and working seamlessly. Our team of experts is available 24/7 to provide you with the support you need, whenever you need it.
+      At NavigatorBD, our goal is to help you grow your business and achieve your goals. Contact us today to learn more about our software solutions, Android apps, and other services, and take the first step towards a more efficient and productive business.
+      We focus on valued customers needs and create accordingly...!</p>
+        <!-- <a href="#" class="btn hero-btn">WORK WITH US!</a> -->
       </div>
     </div>
     <!-- End: Hero Descriptions -->
   </header>
   <!-- End: Header Section -->
+
+
+
 
   <!-- Services Section -->
   <section id="services">
