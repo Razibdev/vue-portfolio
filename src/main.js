@@ -9,10 +9,10 @@ import camelCase from "lodash/camelCase";
 import router from "./router/index.js";
 import store from "./store/index.js";
 
-// axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
-// const token = `Bearer ${localStorage.getItem("token")}`;
-// axios.defaults.headers.common["Authorization"] = token;
-// axios.defaults.baseURL = process.env.VUE_APP_API_URL;
+axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
+const token = `Bearer ${localStorage.getItem("token")}`;
+axios.defaults.headers.common["Authorization"] = token;
+axios.defaults.baseURL = process.env.VUE_APP_API_URL;
 // axios.defaults.withCredentials = true;
 
 // axios.interceptors.response.use(undefined, function (error) {
