@@ -1,13 +1,13 @@
 <template>
-  <section id="portfolio">
-    <div class="row">
+  <section id="portfolio" class="portfolio-area">
+    <div class="row top-row animate__animated">
       <h2 class="portfolio-heading">OUR PORTFOLIO</h2>
       <p class="section-description">
         Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet
         consectetur, adipisci velit, sed quia non numquam
       </p>
     </div>
-    <div class="portfolio-filter">
+    <div class="middle-row portfolio-filter animate__animated">
       <button type="button" data-filter="all" @click="dcomponent('AllApp')">ALL</button>
       <button type="button" data-filter=".web" @click="dcomponent('WebApp')">WEB</button>
       <button type="button" data-filter=".apps" @click="dcomponent('AppApp')">APPS</button>

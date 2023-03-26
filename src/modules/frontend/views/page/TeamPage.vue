@@ -1,13 +1,13 @@
 <template>
-    <section id="team">
-    <div class="row">
+    <section id="team" class="team-area">
+    <div class="row top-row animate__animated">
       <h2 class="team-heading">MEET OUR BEAUTIFUL TEAM</h2>
       <p class="section-description">
         We are a small team of designers and developers, who help brands with
         big ideas.
       </p>
     </div>
-    <div class="row">
+    <div class="row bottom-row animate__animated">
 
       <div class="col span_1_of_4 team-box" v-for="data in get_team" :key="data._id">
         <img :src="data.feature_image" alt="" class="avatar" />

@@ -1,60 +1,62 @@
 <template>
-  <div class="row">
-    <h2 class="contact-heading">GET IN TOUCH</h2>
-    <p class="section-description">
-      1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America.
-      <br />
-      Tel: (202) 456-1111
-    </p>
-  </div>
-  <div class="row contact-form">
-    <form action="#" method="POST" @submit.prevent="contactFormSubmit">
-      <div class="row">
-        <div class="col span_1_of_2">
-          <input
-            type="text"
-            name="Name"
-            v-model="full_name"
-            placeholder="Your Name*"
-            required
-          />
+  <div class="contact-area">
+    <div class="row top-row animate__animated">
+      <h2 class="contact-heading">GET IN TOUCH</h2>
+      <p class="section-description">
+        1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America.
+        <br />
+        Tel: (202) 456-1111
+      </p>
+    </div>
+    <div class="row bottom-row contact-form animate__animated">
+      <form action="#" method="POST" @submit.prevent="contactFormSubmit">
+        <div class="row">
+          <div class="col span_1_of_2">
+            <input
+              type="text"
+              name="Name"
+              v-model="full_name"
+              placeholder="Your Name*"
+              required
+            />
+          </div>
+          <div class="col span_1_of_2">
+            <input
+              type="email"
+              v-model="email"
+              name="Mail"
+              placeholder="Your Email*"
+              required
+            />
+          </div>
         </div>
-        <div class="col span_1_of_2">
-          <input
-            type="email"
-            v-model="email"
-            name="Mail"
-            placeholder="Your Email*"
-            required
-          />
+        <div class="row">
+           <input
+              type="tel"
+              class="tel_number"
+              v-model="mobile"
+              name="mobile"
+              placeholder="Your Mobile*"
+              required
+              
+            />
         </div>
-      </div>
-      <div class="row">
-         <input
-            type="tel"
-            class="tel_number"
-            v-model="mobile"
-            name="mobile"
-            placeholder="Your Mobile*"
+        <div class="row">
+          <textarea
+            name="Message"
+            v-model="message"
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Your Message*"
             required
-            
-          />
-      </div>
-      <div class="row">
-        <textarea
-          name="Message"
-          v-model="message"
-          id=""
-          cols="30"
-          rows="10"
-          placeholder="Your Message*"
-          required
-        ></textarea>
-      </div>
-      <div class="row">
-        <input type="submit" value="Send Message" class="btn submit-btn" />
-      </div>
-    </form>
+          ></textarea>
+        </div>
+        <div class="row">
+          <button type="submit" class="action-btn">Send Message</button>
+        </div>
+      </form>
+    </div>
   </div>
 </template>
 

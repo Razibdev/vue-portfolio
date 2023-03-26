@@ -1,5 +1,6 @@
 const FrontModule = () => import("./FrontModule.vue");
 const HomePage = () => import("./views/page/HomePage.vue");
+const DemoPage = () => import("./views/page/DemoPage.vue");
 
 const moduleRoute = {
   path: "/",
@@ -8,6 +9,10 @@ const moduleRoute = {
     {
       path: "/",
       component: HomePage,
+    },
+    {
+      path: "/demo",
+      component: DemoPage,
     }
   ],
 };

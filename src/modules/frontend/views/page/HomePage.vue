@@ -1,8 +1,8 @@
 <template>
   <!-- Preloader -->
-  <div class="preloader">
+  <!-- <div class="preloader">
     <div class="loader"></div>
-  </div>
+  </div> -->
   <!-- Preloader End -->
 
 
@@ -47,37 +47,36 @@
       </div>
     </nav>
     <!-- End: Navbar -->
-
-    <!-- Hero Descriptions -->
-    <div class="row">
-      <div class="hero-main">
-      <p> Welcome to NavigatorBD, a comprehensive software and ERP solution provider that is tailored to meet the specific needs of businesses in Bangladesh. Our state-of-the-art technology and advanced tools ensure that you have everything you need to manage your business more effectively.
-      Our software solutions are designed to streamline your operations and improve productivity. Whether you are looking for accounting software, inventory management, HR and payroll management, or customer relationship management, we have got you covered. Our software solutions are easy to use, highly customizable, and scalable to grow with your business.
-      In addition to our software solutions, we also offer Android apps that can be seamlessly integrated with your business operations. Our Android apps are designed to help you manage your business on the go, providing real-time access to critical data and allowing you to make informed decisions from anywhere.
-      At NavigatorBD, we understand that every business is unique, and that is why we offer highly customizable solutions that can be tailored to your specific needs. Our team of experienced developers will work closely with you to understand your business requirements and develop a solution that is tailored to your needs.
-      We also offer ongoing support and maintenance services to ensure that your software and Android apps are always up-to-date and working seamlessly. Our team of experts is available 24/7 to provide you with the support you need, whenever you need it.
-      At NavigatorBD, our goal is to help you grow your business and achieve your goals. Contact us today to learn more about our software solutions, Android apps, and other services, and take the first step towards a more efficient and productive business.
-      We focus on valued customers needs and create accordingly...!</p>
-        <!-- <a href="#" class="btn hero-btn">WORK WITH US!</a> -->
-      </div>
-    </div>
-    <!-- End: Hero Descriptions -->
   </header>
   <!-- End: Header Section -->
+
+
+  <!-- Hero Descriptions -->
+  <div class="hero-banner">
+    <div class="row">
+      <div class="hero-main">
+        <h5 class="animate__animated animate__slideInDown">Welcome to NavigatorBD</h5>
+        <h1 class="animate__animated animate__slideInLeft">YOU THINK WE CREATE</h1>
+        <p class="animate__animated animate__slideInUp">Welcome to NavigatorBD, a comprehensive software and ERP solution provider that is tailored to meet the specific needs of businesses in Bangladesh. Our state-of-the-art technology and advanced tools ensure that you have everything you need to manage your business more effectively.</p>
+        <a href="#" class="action-btn animate__animated animate__bounce">WITH US!</a>
+      </div>
+    </div>
+  </div>
+  <!-- End: Hero Descriptions -->
 
 
 
 
   <!-- Services Section -->
-  <section id="services">
-    <div class="row">
+  <section id="services" class="services-area">
+    <div class="row top-row animate__animated ">
       <h2>SERVICES WE PROVIDE</h2>
       <p class="section-description">
         We are working with both individuals and businesses from all over the
         globe to create awesome websites and applications.
       </p>
     </div>
-    <div class="row col-items">
+    <div class="row col-items bottom-row animate__animated">
       <div class="col span_1_of_4 box">
         <img src="@/assets/images/flag.png" alt="" class="services-icon" />
         <h3>Branding</h3>
@@ -121,24 +120,16 @@
 
 
 
-
-
-
-
-
-
-
-
   <!-- Skill Section -->
-  <section id="skill">
-    <div class="row">
+  <section id="skill" class="skill-area">
+    <div class="row top-row animate__animated">
       <h2>WE GOT SKILLS!</h2>
       <p class="section-description">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua.
       </p>
     </div>
-    <div class="row">
+    <div class="row bottom-row animate__animated">
       <div class="col span_1_of_4 skill-box">
         <svg
           class="radial-progress web-design"
@@ -224,69 +215,74 @@
   <!-- End: Portfolio Section -->
 
   <!-- Testimonial Section -->
-  <section id="testimonial">
-    <div class="row">
+  <div id="testimonial" class="testimonial-area">
+    <div class="row top-row animate__animated">
       <h2 class="testimonial-heading">WHAT POEPLE SAY ABOUT US</h2>
       <p class="section-description">Our clients love us!</p>
     </div>
-    <div class="row testimonial-items">
-      <div class="col span_1_of_2">
-        <div class="client-avatar">
-          <img src="@/assets/images/avatar1.jpg" />
+    <div class="row bottom-row animate__animated">
+      <div class="testimonial-items">
+        <div class="items">
+          <div class="item">
+            <div class="client-avatar">
+              <img src="@/assets/images/avatar1.jpg" />
+            </div>
+            <div class="client-review">
+              <p>
+                “Nullam dapibus blandit orci, viverra gravida dui lobortis eget.
+                Maecenas fringilla urna eu nisl scelerisque.”
+              </p>
+              <h3>Chanel Iman</h3>
+              <p class="client-role">CEO of Pinterest</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="client-avatar">
+              <img src="@/assets/images/avatar2.jpg" />
+            </div>
+            <div class="client-review">
+              <p>
+                “Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In
+                condimentum facilisis porta.”
+              </p>
+              <h3>ADRIANA LIMA</h3>
+              <p class="client-role">Founder of Instagram</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="client-avatar">
+              <img src="@/assets/images/avatar3.jpg" />
+            </div>
+            <div class="client-review">
+              <p>
+                “Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In
+                condimentum facilisis porta.”
+              </p>
+              <h3>ANNE HATHAWAY</h3>
+              <p class="client-role">Lead Designer at Behance</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="client-avatar">
+              <img src="@/assets/images/avatar4.jpg" />
+            </div>
+            <div class="client-review">
+              <p>
+                “Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In
+                condimentum facilisis porta.”
+              </p>
+              <h3>EMMA STONE</h3>
+              <p class="client-role">Co-Founder of Shazam</p>
+            </div>
+          </div>
         </div>
-        <div class="client-review">
-          <p>
-            “Nullam dapibus blandit orci, viverra gravida dui lobortis eget.
-            Maecenas fringilla urna eu nisl scelerisque.”
-          </p>
-          <h3>Chanel Iman</h3>
-          <p class="client-role">CEO of Pinterest</p>
-        </div>
-      </div>
-      <div class="col span_1_of_2">
-        <div class="client-avatar">
-          <img src="@/assets/images/avatar2.jpg" />
-        </div>
-        <div class="client-review">
-          <p>
-            “Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In
-            condimentum facilisis porta.”
-          </p>
-          <h3>ADRIANA LIMA</h3>
-          <p class="client-role">Founder of Instagram</p>
+        <div class="arrow">
+            <div class="left_arrow"><i class="fa fa-angle-left"></i></div>
+            <div class="right_arrow"><i class="fa fa-angle-right"></i></div>
         </div>
       </div>
     </div>
-
-    <div class="row testimonial-items">
-      <div class="col span_1_of_2">
-        <div class="client-avatar">
-          <img src="@/assets/images/avatar3.jpg" />
-        </div>
-        <div class="client-review">
-          <p>
-            “Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In
-            condimentum facilisis porta.”
-          </p>
-          <h3>ANNE HATHAWAY</h3>
-          <p class="client-role">Lead Designer at Behance</p>
-        </div>
-      </div>
-      <div class="col span_1_of_2">
-        <div class="client-avatar">
-          <img src="@/assets/images/avatar4.jpg" />
-        </div>
-        <div class="client-review">
-          <p>
-            “Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In
-            condimentum facilisis porta.”
-          </p>
-          <h3>EMMA STONE</h3>
-          <p class="client-role">Co-Founder of Shazam</p>
-        </div>
-      </div>
-    </div>
-  </section>
+  </div>
   <!-- End: Testimonial Section -->
 
   <!-- Contact Section -->
@@ -299,15 +295,15 @@
 
   <!-- Footer Section -->
   <footer>
-    <div class="row footer-links">
+    <div class="row footer-links  animate__animated">
       <ul>
-        <li><a href="#">Facebook</a></li>
-        <li><a href="#">Twitter</a></li>
-        <li><a href="#">Google+</a></li>
-        <li><a href="#">LinkedIn</a></li>
-        <li><a href="#">Behance</a></li>
-        <li><a href="#">Dribble</a></li>
-        <li><a href="#">Github</a></li>
+        <li><a href="#"><img src="@/assets/images/social/facebook.png" alt="Facebook" title="Facebook"></a></li>
+        <li><a href="#"><img src="@/assets/images/social/twitter.png" alt="Twitter" title="Twitter"></a></li>
+        <li><a href="#"><img src="@/assets/images/social/google-plus.png" alt="Google Plus" title="Google Plus"></a></li>
+        <li><a href="#"><img src="@/assets/images/social/linkedin.png" alt="LinkedIn" title="LinkedIn"></a></li>
+        <li><a href="#"><img src="@/assets/images/social/behance.png" alt="Behance" title="Behance"></a></li>
+        <li><a href="#"><img src="@/assets/images/social/dribbble.png" alt="Dribbble" title="Dribbble"></a></li>
+        <li><a href="#"><img src="@/assets/images/social/github.png" alt="Github" title="Github"></a></li>
       </ul>
     </div>
   </footer>
@@ -413,6 +409,11 @@ import ContactPage from './ContactPage.vue';
 import PortfolioPage from './PortfolioPage.vue';
 import TeamPage from './TeamPage.vue';
 export default {
+  components:{
+    ContactPage,
+    PortfolioPage,
+    TeamPage
+  },
   setup() {
     // route section
     const router = useRouter();
@@ -489,13 +490,58 @@ export default {
       password_again
     };
   },
-
-
-  components:{
-    ContactPage,
-    PortfolioPage,
-    TeamPage
-  }
+  mounted(){
+    let testimonialItems = document.querySelector('.testimonial-items');
+    let items = document.querySelector('.testimonial-items .items');
+    let item = document.querySelectorAll('.testimonial-items .items .item');
+    let pdtPageLimit;
+    if(window.innerWidth > 991){
+        pdtPageLimit = 2;
+    }else if(window.innerWidth > 767){
+        pdtPageLimit = 2;
+    }else if(window.innerWidth > 375){
+        pdtPageLimit = 1;
+    }
+    let perPdtWidth = testimonialItems.clientWidth / pdtPageLimit;
+    let allPdtWidth = perPdtWidth * item.length;
+    items.style.width = allPdtWidth+'px';
+    for (let i = 0; i < item.length; i++) {
+      item[i].style.width = perPdtWidth+'px';
+    }
+    let inc = 0;
+    let PerPdtWidthLeft = 0;
+    let pdtSlide = item.length - pdtPageLimit;
+    let LeftBtn = document.querySelector('.testimonial-items .arrow .left_arrow');
+    let rightBtn = document.querySelector('.testimonial-items .arrow .right_arrow');
+    rightBtn.addEventListener("click", function(){
+      rightSlide();
+    })
+    LeftBtn.addEventListener("click", function(){
+      leftSlide();
+    })
+    setInterval(() => {
+      rightSlide();
+    }, 5000);
+    function rightSlide(){
+      if(inc < pdtSlide){
+          PerPdtWidthLeft += perPdtWidth;
+          items.style.marginLeft = '-'+ PerPdtWidthLeft + 'px';
+          inc++;
+      }else {
+        PerPdtWidthLeft = 0;
+        items.style.marginLeft = '0px'
+        inc = 0;
+      }
+    }
+    function leftSlide(){
+      if(inc > 0){
+            PerPdtWidthLeft -= perPdtWidth;
+            items.style.marginLeft = '-'+ PerPdtWidthLeft + 'px';
+            inc--;
+        }
+    }
+}
+  
 };
 </script>
 <style lang="scss" scoped>
@@ -533,9 +579,4 @@ export default {
   }
 }
 
-.mobile-menu {
-  right: 20px;
-  position: absolute;
-  margin-top: -50px;
-}
 </style>
