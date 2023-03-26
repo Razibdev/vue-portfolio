@@ -12,7 +12,7 @@
                 <div class="right_arrow"><i class="fa fa-angle-right"></i></div>
             </div>
         </div>
-        <h4><router-link to="#">{{data.project_name}}</router-link></h4>
+        <h4><router-link :to="'/details-page/'+data._id">{{data.project_name}}</router-link></h4>
       </div>
     </div>
 
